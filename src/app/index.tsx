@@ -1,13 +1,10 @@
 'use client';
 
+// pages/index.tsx
 import Layout from './components/Layout';
 
 const Home = () => {
   return (
-    <div>
-      <Layout />
-    </div>
+    <Layout />
   );
 };
-
-export default Home;
