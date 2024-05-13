@@ -200,4 +200,14 @@ export const inspirationData = [
     sourceUrl: 'https://example.com/item20',
     likes: 110,
   },
+  {
+    id: 21,
+    title: 'Inspiration Item 21',
+    image: '/path/to/image21.jpg',
+    thumbnailImage: '/path/to/thumbnail21.jpg',
+    authorName: 'Author 21',
+    authorLink: 'https://example.com/author21`',
+    sourceUrl: 'https://example.com/item21',
+    likes: 10,
+  },
 ];
