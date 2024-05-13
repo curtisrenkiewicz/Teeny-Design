@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import GridView from './components/GridView';
-import SingleItemView from './components/SingleItemView';
-import { inspirationData } from './data/inspirationData';
-import styles from './styles/Layout.module.css';
+import { motion } from 'framer-motion';
+import GridView from './GridView';
+import SingleItemView from './SingleItemView';
+import { inspirationData } from '../data/inspirationData';
+import styles from '../styles/Layout.module.css';
 
 const Layout = () => {
   const [viewMode, setViewMode] = useState('grid');

@@ -1,0 +1,62 @@
+/* styles/InspirationItem.module.css */
+.inspirationItem {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.inspirationItem img {
+  width: 100%;
+  height: auto;
+}
+
+.itemDetails {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.itemDetails h3 {
+  margin: 0 0 0.5rem;
+}
+
+.itemDetails p {
+  margin: 0 0 1rem;
+}
+
+.itemDetails a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.itemDetails button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.likeButton {
+  margin-top: 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.likeButton span {
+  margin-left: 0.5rem;
+}
+
+.sourceLink {
+  margin-top: 1rem;
+  align-self: flex-end;
+}
