@@ -1,13 +1,17 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from '../styles/InspirationItem.module.css';
 
 const InspirationItem = ({ item }) => {
-  const [likes, setLikes] = useState(item.likes || 0);
+  const [likes, setLikes] = useState(0);
   const [isLiked, setIsLiked] = useState(false);
+
+  useEffect(() => {
+    setLikes(item.likes || 0);
+  }, [item.likes]);
 
   const handleLike = () => {
     if (isLiked) {
